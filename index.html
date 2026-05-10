@@ -1,187 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <title>SurveyCam Privacy Policy</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg, #0f172a, #1e293b);
-  color: #e2e8f0;
+body{
+  font-family:'Inter',sans-serif;
+  background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
+  color:#e2e8f0;
+  line-height:1.7;
 }
 
-/* Header */
-.header {
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(10px);
-  background: rgba(15, 23, 42, 0.6);
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: 600;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+/* HEADER */
+
+.header{
+  position:sticky;
+  top:0;
+  z-index:100;
+  backdrop-filter:blur(14px);
+  background:rgba(15,23,42,0.7);
+  border-bottom:1px solid rgba(255,255,255,0.08);
+  padding:18px 30px;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing:0.3px;
 }
 
-/* Container */
-.container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
+/* CONTAINER */
+
+.container{
+  max-width:950px;
+  margin:50px auto;
+  padding:20px;
 }
 
-/* Card */
-.card {
-  background: rgba(255,255,255,0.05);
-  border-radius: 16px;
-  padding: 30px;
-  backdrop-filter: blur(20px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+/* CARD */
+
+.card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:24px;
+  padding:40px;
+  backdrop-filter:blur(20px);
+  box-shadow:0 10px 40px rgba(0,0,0,0.35);
 }
 
-/* Headings */
-h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
+/* TYPOGRAPHY */
+
+h1{
+  font-size:38px;
+  margin-bottom:12px;
+  font-weight:700;
 }
 
-h2 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  color: #38bdf8;
+h2{
+  margin-top:35px;
+  margin-bottom:12px;
+  font-size:22px;
+  color:#38bdf8;
+  font-weight:600;
 }
 
-p {
-  margin-bottom: 12px;
-  color: #cbd5f5;
+p{
+  margin-bottom:14px;
+  color:#cbd5e1;
+  font-size:15px;
 }
 
-ul {
-  margin-left: 20px;
-  margin-bottom: 10px;
+ul{
+  margin-left:22px;
+  margin-bottom:15px;
 }
 
-li {
-  margin-bottom: 8px;
+li{
+  margin-bottom:10px;
+  color:#dbe4f0;
 }
 
-/* Badge */
-.badge {
-  display: inline-block;
-  padding: 6px 12px;
-  background: #38bdf8;
-  color: #0f172a;
-  border-radius: 20px;
-  font-size: 12px;
-  margin-bottom: 20px;
+/* BADGE */
+
+.badge{
+  display:inline-block;
+  padding:8px 14px;
+  background:#38bdf8;
+  color:#0f172a;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:24px;
 }
 
-/* Contact Box */
-.contact {
-  background: rgba(56,189,248,0.1);
-  padding: 15px;
-  border-radius: 10px;
-  margin-top: 10px;
+/* CONTACT */
+
+.contact{
+  background:rgba(56,189,248,0.08);
+  border:1px solid rgba(56,189,248,0.18);
+  padding:18px;
+  border-radius:14px;
+  margin-top:10px;
 }
 
-/* Footer */
-.footer {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 13px;
-  color: #94a3b8;
+/* LINKS */
+
+a{
+  color:#7dd3fc;
+  text-decoration:none;
 }
 
-/* Mobile */
-@media(max-width:600px) {
-  .card {
-    padding: 20px;
+a:hover{
+  text-decoration:underline;
+}
+
+/* FOOTER */
+
+.footer{
+  text-align:center;
+  margin-top:45px;
+  color:#94a3b8;
+  font-size:13px;
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+  .container{
+    margin:20px auto;
+    padding:14px;
   }
+
+  .card{
+    padding:24px;
+    border-radius:18px;
+  }
+
+  h1{
+    font-size:30px;
+  }
+
+  h2{
+    font-size:20px;
+  }
+
 }
+
 </style>
 </head>
 
 <body>
 
-<div class="header">SurveyCam Privacy Policy</div>
+<div class="header">
+  SurveyCam Privacy Policy
+</div>
 
 <div class="container">
+
   <div class="card">
 
     <h1>Privacy Policy</h1>
-    <div class="badge">Effective Date: April 2, 2026</div>
+
+    <div class="badge">
+      Effective Date: May 10, 2026
+    </div>
 
     <p>
-      SurveyCam ("we", "our", or "us") respects your privacy and is committed to protecting it.
-      This policy explains how your data is handled when using the app.
+      SurveyCam ("we", "our", or "us") is committed to protecting your privacy.
+      This Privacy Policy explains how SurveyCam handles information when you use the application.
+    </p>
+
+    <p>
+      SurveyCam is designed to work primarily offline and locally on your device.
+      We do not operate external servers for storing your captured media or location data.
     </p>
 
     <h2>1. Information We Access</h2>
-    <p>We do not collect or store personal data externally.</p>
-    <ul>
-      <li><b>Camera:</b> Capture photos</li>
-      <li><b>Location:</b> Add geo-details (latitude, longitude, address)</li>
-      <li><b>Storage:</b> Save images locally</li>
-    </ul>
 
-    <h2>2. How Information Is Used</h2>
-    <ul>
-      <li>Capture and store images</li>
-      <li>Add date, time, and location overlays</li>
-      <li>Provide proof-based documentation</li>
-    </ul>
-    <p>No analytics, tracking, or advertising is used.</p>
-
-    <h2>3. Data Sharing</h2>
     <p>
-      We do not share, sell, or transfer any data. All content remains on your device unless you choose to share it.
+      Depending on the features you use, SurveyCam may request access to the following:
     </p>
 
-    <h2>4. Data Security</h2>
+    <ul>
+      <li>
+        <b>Camera Permission</b> — Used to capture photos and videos.
+      </li>
+
+      <li>
+        <b>Microphone Permission</b> — Used while recording videos with audio.
+      </li>
+
+      <li>
+        <b>Location Permission</b> — Used to attach geographic details such as latitude, longitude, address, date, and time overlays to captured media.
+      </li>
+
+      <li>
+        <b>Photos / Media Access</b> — Used only when you choose to save, access, export, or share captured media files from your device.
+      </li>
+    </ul>
+
+    <h2>2. How Your Information Is Used</h2>
+
+    <ul>
+      <li>Capture and store photos and videos locally on your device.</li>
+
+      <li>Add timestamps, GPS coordinates, addresses, and location overlays to media files.</li>
+
+      <li>Support proof-based documentation and field survey workflows.</li>
+
+      <li>Allow users to export or share captured files manually.</li>
+    </ul>
+
     <p>
-      All data is stored locally. We do not upload or maintain any external servers.
+      SurveyCam does not use your information for advertising, analytics, profiling, or tracking purposes.
     </p>
 
-    <h2>5. Permissions</h2>
+    <h2>3. Local Storage & Data Handling</h2>
+
+    <p>
+      All captured photos, videos, and related metadata are stored locally on your device.
+    </p>
+
+    <p>
+      We do not upload, collect, transmit, sell, rent, or share your personal data or captured media to external servers.
+    </p>
+
+    <p>
+      Any sharing of media files occurs only when you explicitly choose to share or export content using your device’s sharing features.
+    </p>
+
+    <h2>4. Data Sharing</h2>
+
+    <p>
+      We do not sell, trade, or share personal information with third parties.
+    </p>
+
+    <p>
+      SurveyCam does not use third-party advertising SDKs or analytics platforms that collect personal data.
+    </p>
+
+    <h2>5. Permissions & User Control</h2>
+
+    <p>
+      Permissions are requested only when required for app functionality.
+    </p>
+
     <ul>
-      <li>Camera – capture photos</li>
-      <li>Location – geo-tagging</li>
-      <li>Storage – saving images</li>
+      <li>You may deny or revoke permissions at any time through your device settings.</li>
+
+      <li>You may disable location access and continue using other app features.</li>
+
+      <li>You may delete captured photos or videos at any time from your device storage.</li>
     </ul>
 
     <h2>6. Third-Party Services</h2>
-    <p>No third-party services are used that collect personal data.</p>
+
+    <p>
+      SurveyCam does not use third-party services that collect personal information from users.
+    </p>
 
     <h2>7. Children's Privacy</h2>
+
     <p>
-      Not intended for users under 13. No data is knowingly collected from children.
+      SurveyCam is not directed toward children under the age of 13.
     </p>
 
-    <h2>8. Your Control</h2>
-    <ul>
-      <li>Manage permissions anytime</li>
-      <li>Delete images anytime</li>
-      <li>Disable location if needed</li>
-    </ul>
+    <p>
+      We do not knowingly collect personal information from children.
+    </p>
+
+    <h2>8. Security</h2>
+
+    <p>
+      Because SurveyCam stores data locally on your device, the security of your files also depends on your device’s own security settings and protections.
+    </p>
 
     <h2>9. Policy Updates</h2>
+
     <p>
-      We may update this policy. Changes will appear here with updated dates.
+      We may update this Privacy Policy from time to time.
     </p>
 
-    <h2>10. Contact</h2>
+    <p>
+      Any future changes will be reflected on this page along with an updated effective date.
+    </p>
+
+    <h2>10. Contact Information</h2>
+
     <div class="contact">
-      Email: <b>baisalya1999@gmail.com</b>
+
+      <p>
+        <b>Developer:</b> Baishalya Roul
+      </p>
+
+      <p>
+        <b>App:</b> SurveyCam
+      </p>
+
+      <p>
+        <b>Email:</b>
+        <a href="mailto:baisalya1999@gmail.com">
+          baisalya1999@gmail.com
+        </a>
+      </p>
+
     </div>
 
     <div class="footer">
@@ -189,6 +321,7 @@ li {
     </div>
 
   </div>
+
 </div>
 
 </body>
